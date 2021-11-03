@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity"
+    android:background="@color/gray">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:background="@color/gray">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="481dp"
+            app:srcCompat="@drawable/pembunuhansubang" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="337dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="382dp"
+            android:text="Berita Terbaru Kasus Subang, Akankah Danu Jadi Tersangka, Inilah Beberapa Fakta Yang Bisa Menyeretnya"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="350dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="337dp"
+                    android:layout_height="913dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="382dp"
+                    android:text="DESKJABAR - Memasuki hari ke 79 kasus pembunuhan ibu dan anak di Subang masih belum menemukan titik terang, tapi masalah mulai mengerucut pada Danu yang sekarang menjadi saksi kunci, dan kemungkinan mengarah dari saksi menjadi tersangka, polisi masih mendalaminya dan tidak gegabah dalam kasus pembunuhan ibu dan anak di Subang.
+Sekarang sudah 4 kali pemeriksaan oleh tim penyidik dari Kepolisian tertuju pada Danu, yang sekarang mulai menyeretnya menjadi saksi kunci utama untuk memperdalam fakta-fakta dan pengakuan Danu dalam Kasus Pembunuhan ibu dan anak di Subang, meskipun dalam memberikan keterangan selalu berubah-ubah.
+Dalam pemanggilan lanjutan ke 3 hari Senin 1 November 2021, Danu hadir di dampingi tim pengacara dari ATS Lawfirm. Pada pemeriksaan ke 4 hari Selasa 2 November 2021, tim penyidik hanya memberikan pertanyaan 5 hingga 12 pertanyaan kepada Danu. Ada beberapa fakta-fakta pengakuan Danu yang menyeretnya dalam kasus pembunuhan Ibu dan Anak di Subang.
+Menerobos garis polisi (police line) yang bisa dikategorikan melanggar hukum Pidana Kuasa hukum Yosef, Rohman Hidayat SH dengan terang terangan meminta Muhammad Ramdanu alias Danu dan oknum Banpol segera ditetapkan menjadi tersangka.
+Pernyataan itu mengejutkan kuasa hukum Yosef Subang ini bukan tanpa alasan, karena menurutnya Danu dan oknum Banpol itu telah leluasa menerobos garis polisi (police line) Tempat Kejadian Perkara (TKP) kasus pembunuh ibu dan anak di Subang yang menewaskan Tuti Suhartini dan Amalia Mustika Ratu. Menurut Rohman Hidayat, bila menerobos berarti sudah melanggar KUH Pidana karena saja mereka menghilangkan barang bukti seperti diatur dalam pasal 221 ayat 2 KUHP. Rohman Hidayat pun membuat pernyataan itu karena memang kuasa hukum Danu pun mengakuinya bahwa Danu disuruh oknum Banpol untuk masuk ke TKP pembunuh ibu dan anak di Subang. Yang jelas setelah di police line siapapun tidak boleh masuk ke TKP dan barang siapa yang masuk itu sudah melanggar KUHP dan bisa dijadikan tersangka, makanya saya minta Polisi segera menetapkan Danu dan oknum Banpol sebagai tersangka.Membersihkan bak mandi di Tempat Kejadian Perkara (TKP) meskipun Danu mengakui disuruh seseorang yang diduga Banpol, dan sekarang lagi diusut oleh tim penyidik kepolisian akan kebenaran pengakuan Danu.
+Adanya tapak tangan dan puntung rokok di sekitar lokasi kejadian dan diakui oleh Danu. Tapak tangan Danu di sekitar lokasi karena dia disuruh membantu membuka pintu yang susah dibuka dan tidak memakai sarung tangan. Adanya sidik jari di dalam mobil, Mengenai sidik jari Danu di mobil tempat pembunuhan, Danu mengaku sempat diajak oleh Polisi."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
